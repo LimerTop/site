@@ -1,0 +1,129 @@
+
+.text1{
+	font-variant: small-caps;
+}
+.text2{
+	font-style: italic;
+}
+.menu-elements{
+	
+	position: sticky;
+	top: 0px;
+	height: 56px;
+	width: 216.44px;
+	border: none;
+	border-radius: 44px;
+	color: black;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 18px;
+	letter-spacing: 1.96px;
+	text-transform: uppercase;
+	transition: transform 1s ease-in-out;
+}
+
+.logo{
+	top: 0%;
+	display: inline-block;
+	width: 90px;
+	margin-left: -100px;
+}
+p:after {
+	display: block;
+	position: absolute;
+	left: 0; /*изменить на right:0;, чтобы изменить направление подчёркивания */
+	width: 0;/*задаём длинну линии до наведения курсора*/
+	height: 2px; /*задаём ширину линии*/
+	background-color: #7bd2c1; /*задаём цвет линии*/
+	content: "";
+	transition: width 0.3s ease-in; /*задаём время анимации*/
+}
+
+p:hover:after,
+p:focus:after {
+	width: 100%; /*устанавливаем значение 100% чтобы ссылка подчёркивалась полностью*/
+}
+
+.menu-elements:hover{
+	transition: 1s;
+	background-color: #18806b;
+}
+.psevdobtn{
+
+	background-color: #00ffcd;
+	position: relative;
+	top: 0px;
+	height: 56px;
+	width: 216.44px;
+	border: none;
+	border-radius: 44px;
+	color: black;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 18px;
+	letter-spacing: 1.96px;
+	text-transform: uppercase;
+	transition: transform 1s ease-in-out;
+}
+.psevdobtn:hover{
+	transition: 1s;
+	background-color: #18806b;
+	font-size: 20px;
+
+}
+.content{
+	position: absolute;
+	left: 10%;
+	top: 20%;
+}
+.text1{
+	font-size: 60px;
+}
+.text2{
+	font-size: 30px;
+}
+.photo{
+	width: 700px;
+	height: 600px;
+	position: absolute;
+	left:50%;
+	top:20%;
+	transition: transform 1s ease-in-out;
+}
+button{
+	position: fixed;
+	top: 0px;
+	height: 56px;
+	width: 216.44px;
+	border: none;
+	border-radius: 44px;
+	color: black;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 18px;
+	letter-spacing: 1.96px;
+	text-transform: uppercase;
+}
+.menu{
+	margin-top: 10px;
+	margin-left: -10px;
+	position: sticky;
+	top: 0px;
+	display: flex;
+	
+	flex-direction: row;
+	justify-content: space-around;
+
+}
+.photo:hover{
+
+	transition: 1s;
+	transform: scale(1.2);
+
+
